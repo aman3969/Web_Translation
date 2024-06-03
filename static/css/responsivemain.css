@@ -1,0 +1,367 @@
+/* Large screens (desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    .container-main {
+        margin-top: 8vh;
+        height: 100vh;
+    }
+    .box{overflow: auto;}
+
+    #transcribeBtn {
+        bottom: 25.5%;
+        left: 40%;
+    }
+
+    #anotheraudio {
+        bottom: 25.5%;
+        left: 60%;
+    }
+
+    #cancel {
+        bottom: 10%;
+        left: 50%;
+    }
+
+    #downloadBtn {
+        bottom: 20px;
+        left: 59%;
+    }
+
+    #tryanother {
+        bottom: 20px;
+        left: 43%;
+    }
+
+}
+
+/* Medium screens (tablets, 800px to 1199px) */
+@media (min-width: 1000px) and (max-width: 1199px) {
+    #transcribeBtn, #anotheraudio, #cancel, #downloadBtn, #tryanother {
+        transform: translateX(-50%);
+    }
+
+    #transcribeBtn {
+        bottom: 12%;
+        left: 35%;
+    }
+
+    #anotheraudio {
+        bottom: 12%;
+        left: 61%;
+    }
+
+    #cancel {
+        left: 50%;
+        bottom: 8%;
+    }
+
+    #downloadBtn {
+        bottom: 5%;
+        left: 35%;
+    }
+
+    #tryanother {
+        bottom: 5%;
+        left: 61%;
+    }
+
+    .box {
+        left: 10%;
+        right: 10%;
+        overflow: auto;
+    }
+
+   
+}
+
+/* Medium screens (tablets, 800px to 999px) */
+@media (min-width: 800px) and (max-width: 999px) {
+    #transcribeBtn, #anotheraudio, #cancel, #downloadBtn, #tryanother {
+        transform: translateX(-50%);
+    }
+
+    #transcribeBtn {
+        bottom: 12%;
+        left: 35%;
+    }
+
+    #anotheraudio {
+        bottom: 12%;
+        left: 61%;
+    }
+
+    #cancel {
+        left: 50%;
+        bottom: 8%;
+    }
+
+    #downloadBtn {
+        bottom: 5%;
+        left: 35%;
+    }
+
+    #tryanother {
+        bottom: 5%;
+        left: 61%;
+    }
+
+    .box {
+        left: 10%;
+        right: 10%;
+        overflow: auto;
+    }
+
+    
+}
+
+@media (min-width: 500px) and (max-width: 799px) {
+
+    #transcribeBtn, #anotheraudio, #cancel, #downloadBtn, #tryanother {
+        transform: translateX(-50%);
+    }
+
+    #transcribeBtn {
+        bottom: 7%;
+        left: 34%;
+    }
+
+    #anotheraudio {
+        bottom: 7%;
+        left: 61%;
+    }
+
+    #cancel {
+        left: 50%;
+        bottom: 8%;
+    }
+
+    #downloadBtn {
+        bottom: 5%;
+        left: 35%;
+    }
+
+    #tryanother {
+        bottom: 5%;
+        left: 61%;
+    }
+
+
+    .container-main {
+        margin-top: 10vh;
+    }
+
+    .text-container-main {
+        top: 20%;
+    }
+
+    .box {
+        left: 5%;
+        right: 5%;
+        overflow: auto;
+    }
+
+    #fileInfoSection {
+        width: 90%;
+        padding: 10px;
+    }
+
+    
+
+    audio {
+        width: 70%;
+    }
+
+    
+}
+
+@media (min-width: 500px) and (max-width: 799px) and (max-height:900px) {
+
+    #transcribeBtn, #anotheraudio, #cancel, #downloadBtn, #tryanother {
+        transform: translateX(-50%);
+    }
+    .container1
+    {
+        position: absolute;
+        bottom: 10vh;
+    }
+
+    #transcribeBtn {
+        bottom: 14%;
+        left: 27%;
+    }
+
+    #anotheraudio {
+        bottom: 14%;
+        left: 63%;
+        font-size: 15px;
+    }
+
+    #cancel {
+        left: 50%;
+        bottom: 0%;
+    }
+
+    #downloadBtn {
+        bottom: 2%;
+        left: 26%;
+    }
+
+    #tryanother {
+        bottom: 2%;
+        left: 65%;
+    }
+
+    .container-main {
+        margin-top: 10vh;
+    }
+
+    .text-container-main {
+        top: 35%;
+    }
+
+    .box {
+        left: 5%;
+        right: 5%;
+        top: 50%;
+        overflow: auto;
+    }
+
+    #fileInfoSection {
+        width: 90%;
+        padding: 10px;
+    }
+
+  
+
+    audio {
+        width: 70%;
+        top: 35%;
+    }
+
+
+}
+
+@media (min-width: 400px) and (max-width: 499px) {
+
+    #transcribeBtn, #anotheraudio, #cancel, #downloadBtn, #tryanother {
+        transform: translateX(-50%);
+    }
+    .text-container-main {
+        top: 25%;
+    }
+
+    .box {
+        left: 3%;
+        right: 3%;
+        top: 42%;
+        overflow: auto;
+    }
+
+    #fileInfoSection {
+        width: 95%;
+        padding: 8px;
+    }
+
+    audio {
+        width: 90%;
+    }
+
+    #transcribeBtn {
+        bottom: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    #anotheraudio {
+        bottom: 8%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    #downloadBtn, #tryanother {
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #cancel
+    {
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #downloadBtn {
+        bottom: 8%;
+    }
+
+    #tryanother {
+        bottom: 2%;
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 200px)  and (max-width: 399px) {
+    .text-container-main {
+        top: 30%;
+        font-size: 16px;
+    }
+
+    .box {
+        left: 3%;
+        right: 3%;
+        top: 47%;
+        overflow: auto;
+        height: 35vh;
+        font-size: 12px;
+    }
+
+    #fileInfoSection {
+        width: 95%;
+        padding: 8px;
+    }
+
+    audio {
+        position: absolute;
+        width: 90%;
+        top: 59%;
+        left: 5%;
+    }
+
+    #transcribeBtn {
+        bottom: 17%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #anotheraudio
+    {
+        bottom:2%;
+        font-size: 14px;
+
+    }
+    #anotheraudio, #cancel, #downloadBtn, #tryanother {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #cancel
+    {
+        bottom: 5%;
+    }
+
+    #downloadBtn {
+        bottom: 7%;
+    }
+
+    #tryanother {
+        bottom: 1%;
+        font-size: 12px;
+    }
+    .transcription-output
+    {
+        font-size: 12px;
+    }
+
+}
